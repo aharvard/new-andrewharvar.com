@@ -1,15 +1,24 @@
 {
-  "name": "eleventy-sample",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "@11ty/eleventy": "^0.9.0"
-  }
+    "name": "new-andrewharvard.com",
+    "version": "1.0.0",
+    "description": "This site uses 11ty and is hosted with Netlify.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/aharvard/new-andrewharvard.com.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/aharvard/new-andrewharvard.com/issues"
+    },
+    "homepage": "https://github.com/aharvard/new-andrewharvard.com#readme",
+    "devDependencies": {
+        "@11ty/eleventy": "^0.9.0",
+        "slugify": "^1.3.5"
+    }
 }

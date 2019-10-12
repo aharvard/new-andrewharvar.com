@@ -1,0 +1,17 @@
+---
+layout: base.njk
+title: My Rad Markdown Blog Post
+---
+
+<h1>
+  {{ title }}
+</h1>
+
+<ul>
+  {%- for post in collections.post -%}
+    <li>
+      <a href="posts/{{post.data.title | slug}}">
+        {{ post.data.title | slug}}</a>
+    </li>
+  {%- endfor -%}
+</ul>
