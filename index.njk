@@ -1,17 +1,10 @@
 ---
 layout: base.njk
-title: My Rad Markdown Blog Post
+title: Home
 ---
 
 <h1>
   {{ title }}
 </h1>
 
-<ul>
-  {%- for post in collections.post -%}
-    <li>
-      <a href="posts/{{post.data.title | slug}}">
-        {{ post.data.title | slug}}</a>
-    </li>
-  {%- endfor -%}
-</ul>
+{% include "_components/post-nav.njk" %}
